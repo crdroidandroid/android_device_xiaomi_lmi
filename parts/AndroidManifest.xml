@@ -2,7 +2,7 @@
 <!--
      Copyright (C) 2015-2016 The CyanogenMod Project
 
-                   2017-2021 The LineageOS Project
+                   2017-2024 The LineageOS Project
                  
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -42,7 +42,8 @@
         android:label="@string/device_settings_app_name"
         android:persistent="true">
 
-        <receiver android:name=".BootCompletedReceiver">
+        <receiver android:name=".BootCompletedReceiver"
+                  android:exported="false">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <category android:name="android.intent.category.DEFAULT" />
@@ -51,6 +52,7 @@
 
         <activity
             android:name=".dirac.DiracActivity"
+            android:exported="false"
             android:label="@string/dirac_title"
             android:theme="@style/Theme.SubSettingsBase">
             <intent-filter>
@@ -64,11 +66,13 @@
 
         <service
             android:name=".doze.DozeService"
+            android:exported="true"
             android:permission="XiaomiDozeService">
         </service>
 
         <service
             android:name=".display.DcDimmingTileService"
+            android:exported="true"
             android:icon="@drawable/ic_dc_tile"
             android:label="@string/dc_dimming_enable_title"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
@@ -93,6 +97,7 @@
 
         <activity
             android:name=".doze.DozeSettingsActivity"
+            android:exported="false"
             android:label="@string/ambient_display_title"
             android:theme="@style/Theme.SubSettingsBase">
             <intent-filter>
@@ -105,11 +110,13 @@
 
         <service
             android:name=".popupcamera.PopupCameraService"
+            android:exported="true"
             android:permission="PopupCameraService">
         </service>
 
         <activity
             android:name=".popupcamera.PopupCameraSettingsActivity"
+            android:exported="false"
             android:label="@string/popup_title"
             android:theme="@style/Theme.SubSettingsBase">
             <intent-filter>
@@ -143,6 +150,7 @@
 
         <activity
             android:name=".display.DisplaySettingsActivity"
+            android:exported="false"
             android:label="@string/display_settings_title"
             android:theme="@style/Theme.SubSettingsBase">
             <intent-filter>
@@ -159,6 +167,7 @@
 
         <activity
             android:name=".touchsampling.TouchSamplingSettingsActivity"
+            android:exported="false"
             android:label="@string/htsr_enable_title"
             android:theme="@style/Theme.SubSettingsBase">
             <intent-filter>
@@ -174,6 +183,7 @@
       
         <service
             android:name=".RefreshRateTileService"
+            android:exported="true"
             android:icon="@drawable/ic_qs_refresh_rate"
             android:label="@string/refresh_rate_tile_title"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
