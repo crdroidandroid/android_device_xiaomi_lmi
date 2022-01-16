@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Clear Speaker -->
+    <string name="clear_speaker_title">Очищення динаміка</string>
+    <string name="clear_speaker_summary">Відтворити 30-секундний сигнал для очищення динаміка</string>
+    <string name="clear_speaker_description">Використайте цю функцію раз або двічі, якщо помітили, що динамік трохи засмітився. Зробіть якомога гучніше.\n\nЯкщо динамік засмітився сильніше, запустіть функцію 2-5 разів і трусіть пристроєм, тримаючи динаміком донизу.\n\nУВАГА: Переконайтеся, що навушники не під\'єднано</string>
+    <!-- Popup camera -->
+    <string name="popup_title">Налаштування передньої камери</string>
+    <string name="popup_summary">Параметри підсвітки та звукових ефектів</string>
+    <string name="popup_led_title">Підсвітка камери</string>
+    <string name="popup_led_summary">Увімкнути підсвітку передньої камери під час використання</string>
+    <string name="popup_sound_title">Звукові ефекти</string>
+    <string name="popup_sound_none">Вимкнено</string>
+    <string name="popup_sound_muqin">Ксилофон</string>
+    <string name="popup_sound_yingyan">Кондор</string>
+    <string name="popup_sound_mofa">Магія</string>
+    <string name="popup_sound_jijia">Механіка</string>
+    <string name="popup_sound_chilun">Шестерня</string>
+    <string name="popup_sound_cangmen">Двері каюти</string>
+    <string name="popup_camera_tip">Увага!</string>
+    <string name="popup_camera_takeback_failed_times_calibrate">Не вдалося сховати передню камеру кілька разів. Спробуйте відкалібрувати її</string>
+    <string name="popup_camera_popup_failed_times_calibrate">Не вдалося витягти передню камеру кілька разів. Спробуйте відкалібрувати її</string>
+    <string name="popup_camera_calibrate_running">На можна використовувати передню камеру під час калібрування.</string>
+    <string name="popup_camera_calibrate_now">Калібрування</string>
+    <string name="popup_camera_calibrate_failed">Помилка калібрування</string>
+    <string name="popup_camera_calibrate_success">Відкалібровано успішно. Можете використовувати передню камеру</string>
+    <string name="stop_operate_camera_frequently">Ви надто часто намагаєтеся витягти передню камеру</string>
+    <string name="takeback_camera_front_failed">Не вдалося сховати передню камеру. Повторіть спробу</string>
+    <string name="popup_camera_front_failed">Не вдалося витягти передню камеру. Повторіть спробу</string>
+    <string name="popup_led_color_title">Колір підсвічування</string>
+    <string name="popup_led_color_blue">Синій</string>
+    <string name="popup_led_color_cyan">Синьо-зелений</string>
+    <string name="popup_led_color_green">Зелений</string>
+    <string name="popup_led_color_purple">Бузковий</string>
+    <string name="popup_led_color_red">Червоний</string>
+    <string name="popup_led_color_yellow">Жовтий</string>
+    <string name="popup_led_color_white">Білий</string>
+</resources>
