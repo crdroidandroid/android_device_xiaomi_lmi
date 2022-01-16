@@ -7,6 +7,9 @@
 # Inherit from sm8250-common
 include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 
+# Inherit from the proprietary version
+include vendor/xiaomi/lmi/BoardConfigVendor.mk
+
 DEVICE_PATH := device/xiaomi/lmi
 
 BUILD_BROKEN_DUP_RULES := true
@@ -26,6 +29,3 @@ TARGET_OTA_ASSERT_DEVICE := lmi,lmipro
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
-
-# Inherit from the proprietary version
-include vendor/xiaomi/lmi/BoardConfigVendor.mk

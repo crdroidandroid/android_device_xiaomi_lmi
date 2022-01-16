@@ -10,6 +10,9 @@ TARGET_HAS_FOD := true
 # Inherit from sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 
+# Inherit from vendor blobs
+$(call inherit-product, vendor/xiaomi/lmi/lmi-vendor.mk)
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
@@ -36,6 +39,3 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
-
-# Inherit from vendor blobs
-$(call inherit-product, vendor/xiaomi/lmi/lmi-vendor.mk)
