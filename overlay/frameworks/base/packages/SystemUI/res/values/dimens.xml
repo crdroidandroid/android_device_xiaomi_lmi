@@ -30,5 +30,8 @@
     <!-- Location on the screen of the center of the volume up/volume down buttons -->
     <dimen name="physical_volume_up_button_center_screen_location_y">550px</dimen>
     <dimen name="physical_volume_down_button_center_screen_location_y">740px</dimen>
+	
+    <!-- UDFPS recognizing animation vertical position offset -->
+    <dimen name="udfps_animation_offset">38dp</dimen>
 
 </resources>
