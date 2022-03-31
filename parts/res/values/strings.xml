@@ -18,10 +18,6 @@
     <!-- Ambient settings -->
     <string name="ambient_enable">Use ambient display</string>
 
-    <!-- Dirac -->
-    <string name="dirac_tile_on">On</string>
-    <string name="dirac_tile_off">Off</string>
-
     <!-- Device specific settings -->
     <string name="device_settings_app_name">PopupSettings</string>
 
