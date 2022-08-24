@@ -33,5 +33,8 @@
 	
     <!-- UDFPS recognizing animation vertical position offset -->
     <dimen name="udfps_animation_offset">38dp</dimen>
+	
+    <!-- the padding on the top of the statusbar (usually 0) -->
+    <dimen name="status_bar_padding_top">5dp</dimen>
 
 </resources>
