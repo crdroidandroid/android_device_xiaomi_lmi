@@ -11,17 +11,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from the device configuration.
 $(call inherit-product, device/xiaomi/lmi/device.mk)
 
-# Inherit some common Ricedroid stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit some common Lineage stuff.
+$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Set Boot Animination Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Gapps
-TARGET_GAPPS_ARCH := arm64
-IS_PHONE := true
-
-PRODUCT_NAME := arrow_lmi
+PRODUCT_NAME := lineage_lmi
 PRODUCT_DEVICE := lmi
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
