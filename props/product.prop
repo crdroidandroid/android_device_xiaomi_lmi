@@ -7,3 +7,24 @@ ro.af.client_heap_size_kbyte=7168
 
 # FUSE passthrough
 persist.sys.fuse.passthrough.enable=true
+
+# Memory management
+persist.sys.fw.bg_apps_limit=96
+
+# LMK
+ro.lmk.kill_heaviest_task=true
+ro.lmk.kill_timeout_ms=100
+ro.lmk.thrashing_limit=30
+ro.lmk.thrashing_limit_decay=5
+ro.lmk.swap_free_low_percentage=10
+ro.lmk.psi_partial_stall_ms=70
+ro.lmk.psi_complete_stall_ms=70
+ro.lmk.use_new_strategy=true
+ro.lmk.psi_scrit_complete_stall_ms=75
+ro.lmk.nstrat_wmark_boost_factor=4
+ro.lmk.direct_reclaim_pressure=45
+ro.lmk.reclaim_scan_threshold=0
+ro.lmk.enable_watermark_check=true
+ro.lmk.enable_userspace_lmk=true
+ro.lmk.enhance_batch_kill=false
+ro.lmk.super_critical=701
