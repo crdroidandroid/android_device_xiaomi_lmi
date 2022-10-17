@@ -222,7 +222,6 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.mdm.sh \
     init.mi.usb.sh \
-    init.qcom.early_boot.sh \
     init.qcom.post_boot.sh \
     init.qcom.rc \
     init.qcom.sh \
@@ -445,5 +444,4 @@ PRODUCT_COPY_FILES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
-    libdisplayconfig.qti \
-    libdisplayconfig.qti.vendor
+    libdisplayconfig.qti
