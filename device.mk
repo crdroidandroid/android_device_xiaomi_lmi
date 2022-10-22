@@ -194,6 +194,9 @@ PRODUCT_PACKAGES += \
 # Fastboot
 PRODUCT_PACKAGES += \
     fastbootd
+	
+# FOD
+TARGET_HAS_UDFPS := true
 
 # HIDL
 PRODUCT_PACKAGES += \
