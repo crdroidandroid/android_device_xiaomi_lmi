@@ -201,6 +201,11 @@ PRODUCT_PACKAGES += \
 # FOD
 TARGET_HAS_UDFPS := true
 
+# Google Camera
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/privapp-permissions-com.google.android.GoogleCamera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-com.google.android.GoogleCamera.xml \
+    $(LOCAL_PATH)/configs/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-qti.xml
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
