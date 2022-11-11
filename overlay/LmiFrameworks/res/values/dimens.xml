@@ -11,7 +11,7 @@
     <dimen name="status_bar_height">32dp</dimen>
 
     <!-- Default radius of the software rounded corners. -->
-    <dimen name="rounded_corner_radius">132px</dimen>
+    <dimen name="rounded_corner_radius">122px</dimen>
 
     <!-- Default adjustment for the software rounded corners since corners are not perfectly
         round. This value is used when retrieving the "radius" of the rounded corner in cases

@@ -6,7 +6,7 @@
 <resources>
 
     <!-- The padding on the top of the statusbar (usually 0). -->
-    <dimen name="status_bar_padding_top">2dp</dimen>
+    <dimen name="status_bar_padding_top">5dp</dimen>
 
     <!-- for 18dp of padding at 2.75px/dp at default density -->
     <dimen name="rounded_corner_content_padding">70px</dimen>
@@ -25,10 +25,10 @@
     <dimen name="physical_power_button_center_screen_location_y">980px</dimen>
 	
     <!-- the padding on the start of the statusbar -->
-    <dimen name="status_bar_padding_start">0dp</dimen>
+    <dimen name="status_bar_padding_start">4dp</dimen>
 
     <!-- the padding on the end of the statusbar -->
-    <dimen name="status_bar_padding_end">0dp</dimen>
+    <dimen name="status_bar_padding_end">4dp</dimen>
 	
     <!-- Burn-in protection -->
     <dimen name="burnin_protection_horizontal_shift">1dp</dimen>
