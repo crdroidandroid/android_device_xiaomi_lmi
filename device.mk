@@ -399,7 +399,7 @@ PRODUCT_COPY_FILES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    lib-watermarkshim \
+    libpiex_shim \
     libcrypto-v34
 
 # Shipping API
