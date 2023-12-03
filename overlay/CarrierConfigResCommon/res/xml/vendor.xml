@@ -2650,6 +2650,8 @@
     </carrier_config>
     <carrier_config mcc="222" mnc="88,99">
         <boolean name="carrier_default_wfc_ims_enabled_bool" value="true" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
         <int name="config_fast_dormancy_screen_on_minutes_int" value="3" />
         <boolean name="config_callbarring_over_ims_no_need_password" value="true" />
         <boolean name="config_volte_play_local_hold_tone" value="true" />
@@ -3841,7 +3843,9 @@
         <boolean name="config_disable_caller_id" value="true" />
     </carrier_config>
     <carrier_config mcc="222" mnc="50">
-        <string-array name="read_only_apn_types_string_array" num="0" />
+        <boolean name="carrier_volte_available_bool" value="true" />
+        <boolean name="carrier_vt_available_bool" value="true" />
+        <boolean name="carrier_wfc_ims_available_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="222" mnc="54">
         <string-array name="non_roaming_operator_string_array" num="1">
