@@ -105,6 +105,7 @@ vendor/lib/libssrec.so
 # Audio FX modules
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libshoebox.so
+vendor/lib/soundfx/libmisoundfx.so
 
 # Audio firmware 
 vendor/firmware/tfa98xx.cnt
