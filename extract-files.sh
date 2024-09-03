@@ -74,9 +74,6 @@ function blob_fixup() {
         vendor/lib/hw/audio.primary.kona.so)
             "${PATCHELF}" --replace-needed "libaudioroute.so" "libaudioroute-v34.so" "${2}"
             ;;
-        vendor/etc/media_codecs_kona.xml)
-            sed -i "/media_codecs_dolby_audio.xml/d" "${2}"
-            ;;
     esac
 }
 
