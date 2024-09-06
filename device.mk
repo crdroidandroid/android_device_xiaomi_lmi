@@ -424,7 +424,8 @@ PRODUCT_COPY_FILES += \
 
 # Shims
 PRODUCT_PACKAGES += \
-    lib-watermarkshim
+    lib-watermarkshim \
+    libcrypto-v34
 
 # Shipping API
 PRODUCT_SHIPPING_API_LEVEL := 30
