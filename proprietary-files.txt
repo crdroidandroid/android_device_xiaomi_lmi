@@ -94,13 +94,22 @@ vendor/lib/hw/audio.primary.kona.so:vendor/lib/hw/audio.primary.lmi.so;FIX_SONAM
 vendor/lib/vndk/libxlog.so
 vendor/lib/liba2dpoffload.so:vendor/lib/liba2dpoffload_lmi.so;FIX_SONAME
 vendor/lib/libaudio_log_utils.so
+vendor/lib/libaudioparsers.so
 vendor/lib/libaudioroute_ext.so
+vendor/lib/libbatterylistener.so
+vendor/lib/libcomprcapture.so
+vendor/lib/libexthwplugin.so
+vendor/lib/libhdmiedid.so
+vendor/lib/libhdmipassthru.so
+vendor/lib/libhfp.so
+vendor/lib/libqtigef.so
 vendor/lib/libresampler.so
+vendor/lib/libsndmonitor.so
+vendor/lib/libspkrprot.so
+vendor/lib/libssrec.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 vendor/lib/libadm.so
 vendor/lib/libaudcal.so
-vendor/lib/libqtigef.so
-vendor/lib/libssrec.so
 
 # Audio FX modules
 vendor/lib/soundfx/libasphere.so
