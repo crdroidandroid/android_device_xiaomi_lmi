@@ -8,3 +8,5 @@ allowxperm init per_boot_file:file ioctl { F2FS_IOC_SET_PIN_FILE };
 
 # Allow init to set attribute to sysfs_kprofiles
 allow init sysfs_kprofiles:file { setattr };
+
+set_prop(init, vendor_fingerprint_prop)

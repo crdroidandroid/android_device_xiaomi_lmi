@@ -15,6 +15,7 @@ sys.camera.miui.apk                         u:object_r:exported_system_prop:s0
 
 # Fingerprint
 persist.vendor.sys.fp.                      u:object_r:vendor_fingerprint_prop:s0
+persist.vendor.fingerprint.                 u:object_r:vendor_fingerprint_prop:s0
 ro.boot.fpsensor                            u:object_r:vendor_fingerprint_prop:s0
 ro.hardware.fp.                             u:object_r:vendor_fingerprint_prop:s0
 sys.panel.                                  u:object_r:vendor_fingerprint_prop:s0
