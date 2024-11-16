@@ -45,7 +45,6 @@ vendor.audio.feature.ssrec.enable=true
 vendor.audio.feature.usb_offload_burst_mode.enable=true
 vendor.audio.feature.usb_offload.enable=true
 vendor.audio.feature.vbat.enable=true
-vendor.audio.flac.sw.decoder.24bit=true
 vendor.audio.hal.output.suspend.supported=false
 vendor.audio.hw.aac.encoder=true
 vendor.audio.offload.buffer.size.kb=256
