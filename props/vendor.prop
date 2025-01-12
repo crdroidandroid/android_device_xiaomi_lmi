@@ -124,9 +124,6 @@ persist.vendor.dpmhalservice.enable=1
 # DRM
 drm.service.enabled=true
 
-# Factory Reset Protection
-ro.frp.pst=/dev/block/bootdevice/by-name/frp
-
 # Fingerprint
 persist.vendor.fingerprint.sensor_location=540|1756|101
 persist.vendor.fingerprint.type=udfps_optical
