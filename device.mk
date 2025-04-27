@@ -471,10 +471,12 @@ PRODUCT_BOOT_JARS += \
     telephony-ext
 
 # Thermal
+ifeq ($(TARGET_USE_QTI_THERMAL_SERVICE),true)
 PRODUCT_PACKAGES += \
     android.hardware.thermal@2.0 \
     android.hardware.thermal@2.0.vendor \
     android.hardware.thermal-service.qti
+endif
 
 # Touchscreen
 PRODUCT_PACKAGES += \
