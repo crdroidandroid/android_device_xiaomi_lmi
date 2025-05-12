@@ -307,8 +307,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     KProfiles
 
-$(call soong_config_set_bool,lineage_health,charging_control_supports_bypass,false)
-
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \
