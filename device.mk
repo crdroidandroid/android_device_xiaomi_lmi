@@ -207,6 +207,7 @@ PRODUCT_PACKAGES += \
 	
 # FOD
 TARGET_HAS_UDFPS := true
+$(call soong_config_set,surfaceflinger,udfps_lib,//$(LOCAL_PATH):libudfps_extension.xiaomi_lmi)
 
 # Google Camera
 PRODUCT_COPY_FILES += \
