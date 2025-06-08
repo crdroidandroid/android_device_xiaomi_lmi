@@ -18,7 +18,6 @@
 
 # Devices
 /dev/xlog                                                   u:object_r:sound_device:s0
-/dev/ir_spi                                                 u:object_r:vendor_ir_spi_device:s0
 /dev/elliptic(.*)?                                          u:object_r:sound_device:s0
 /dev/xiaomi-touch                                           u:object_r:touchfeature_device:s0
 
