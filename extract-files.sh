@@ -68,6 +68,12 @@ function blob_fixup() {
         vendor/lib64/libwvhidl.so)
             "${PATCHELF}" --replace-needed "libcrypto.so" "libcrypto-v34.so" "${2}"
             ;;
+        vendor/lib/libaudioroute_ext.so)
+            "${PATCHELF}" --replace-needed "libaudioroute.so" "libaudioroute-v34.so" "${2}"
+            ;;
+        vendor/lib/hw/audio.primary.kona.so)
+            "${PATCHELF}" --replace-needed "libaudioroute.so" "libaudioroute-v34.so" "${2}"
+        ;;
     esac
 }
 
