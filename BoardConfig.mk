@@ -75,9 +75,9 @@ BOARD_MKBOOTIMG_ARGS := --header_version $(BOARD_BOOT_HEADER_VERSION)
 BOARD_KERNEL_SEPARATED_DTBO := true
 
 # Camera
+$(call soong_config_set,camera,override_format_from_reserved,true)
 MALLOC_SVELTE := true
 MALLOC_SVELTE_FOR_LIBC32 := true
-TARGET_CAMERA_OVERRIDE_FORMAT_FROM_RESERVED := true
 TARGET_INCLUDES_MIUI_CAMERA := true
 TARGET_USES_MIUI_CAMERA := true
 
@@ -91,7 +91,7 @@ TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 
 # Fingerprint
 TARGET_USES_FOD_ZPOS := true
-TARGET_SURFACEFLINGER_UDFPS_LIB := //hardware/xiaomi:libudfps_extension.xiaomi
+$(call soong_config_set,surfaceflinger,udfps_lib,//hardware/xiaomi:libudfps_extension.xiaomi)
 
 # HIDL
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/vintf/compatibility_matrix.xml
@@ -102,7 +102,7 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += \
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/vintf/manifest.xml
 
 # Init
-TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_lmi
+$(call soong_config_set,libinit,vendor_init_lib,libinit_lmi)
 
 # Kernel
 BOARD_KERNEL_CMDLINE := \
