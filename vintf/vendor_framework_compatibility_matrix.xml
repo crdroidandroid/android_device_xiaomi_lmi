@@ -93,8 +93,17 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     </hal>
     <hal format="aidl" optional="true">
         <name>vendor.lineage.health</name>
+        <version>2</version>
         <interface>
             <name>IChargingControl</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="aidl" optional="true">
+        <name>vendor.lineage.health</name>
+        <version>2</version>
+        <interface>
+            <name>IFastCharge</name>
             <instance>default</instance>
         </interface>
     </hal>
