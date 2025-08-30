@@ -25,6 +25,9 @@
 /dev/elliptic(.*)?                                          u:object_r:sound_device:s0
 /dev/xiaomi-touch                                           u:object_r:touchfeature_device:s0
 
+# DT2W
+/sys/touchpanel(/.*)?                                       u:object_r:sysfs_touchpanel:s0
+
 # EFS
 /dev/block/sde[0-9]                                         u:object_r:efs_block_device:s0
 
