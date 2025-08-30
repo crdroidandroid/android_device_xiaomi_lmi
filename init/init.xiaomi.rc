@@ -53,6 +53,11 @@ on post-fs-data
     mkdir /mnt/vendor/persist/goodix 0770 system system
     mkdir /mnt/vendor/persist/fpc 0770 system system
 
+    # Dt2w
+    chown system system /sys/touchpanel/double_tap
+    chmod 0666 /sys/touchpanel/double_tap
+    write /sys/touchpanel/double_tap 1
+
 on property:init.svc.vendor.nv_mac=stopped
     start vendor.btmac-sh
 
@@ -70,7 +75,6 @@ on boot
     chown system system /sys/class/drm/card0-DSI-1/disp_param
     chmod 0700 /sys/class/drm/card0-DSI-1/disp_param
     chown system system /sys/class/drm/card0-DSI-1/panel_info
-    chown system system /sys/touchpanel/double_tap
     chmod 0664 /sys/class/power_supply/battery/dc_thermal_levels
     chmod 0664 /sys/class/thermal/thermal_message/sconfig
     chown system system /sys/class/thermal/thermal_message/sconfig
