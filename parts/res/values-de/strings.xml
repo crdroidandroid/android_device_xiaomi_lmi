@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Ambient settings -->
+    <string name="ambient_enable">Ambient-Display verwenden</string>
+
+    <!-- Device specific settings -->
+    <string name="device_settings_app_name">Ausfahreinstellungen</string>
+
+    <!-- DO NOT TRANSLATE Empty summary for dynamic preferences -->
+    <string name="summary_empty" translatable="false"></string>
+
+    <!--Display settings fragment -->
+    <string name="display_settings_title">Benutzerdefinierte Display-Einstellungen</string>
+    <string name="display_settings_summary">HBM, DC-Dimming</string>
+
+    <!-- Action toggles -->
+    <string name="action_none">Deaktiviert</string>
+
+    <!-- Popup camera -->
+    <string name="popup_title">Frontkamera-Einstellungen</string>
+    <string name="popup_summary">LED- und Soundeinstellungen</string>
+    <string name="popup_led_title">Kamera-LED</string>
+    <string name="popup_led_summary">LED beim Ein- und Ausfahren der Frontkamera einschalten</string>
+    <!-- Popup camera sound -->
+    <string name="popup_sound_title">Soundeffekt</string>
+    <string name="popup_sound_none">Deaktiviert</string>
+    <string name="popup_sound_muqin">Xylophon</string>
+    <string name="popup_sound_yingyan">Kondor</string>
+    <string name="popup_sound_mofa">Zauberkunst</string>
+    <string name="popup_sound_jijia">Mech</string>
+    <string name="popup_sound_chilun">Zahnrad</string>
+    <string name="popup_sound_cangmen">Kabinentür</string>
+    <!-- Popup camera calibration -->
+    <string name="popup_camera_tip">Achtung</string>
+    <string name="popup_camera_takeback_failed_times_calibrate">Frontkamera konnte mehrfach nicht eingefahren werden und muss ggf. kalibriert werden.</string>
+    <string name="popup_camera_popup_failed_times_calibrate">Frontkamera konnte mehrfach nicht ausgefahren werden und muss ggf. kalibriert werden.</string>
+    <string name="popup_camera_calibrate_running">Frontkamera kann während des Kalibrierens nicht genutzt werden.</string>
+    <string name="popup_camera_calibrate_now">Kalibrieren</string>
+    <string name="popup_camera_calibrate_failed">Kalibrieren fehlgeschlagen</string>
+    <string name="popup_camera_calibrate_success">Erfolgreich kalibriert. Die Frontkamera kann jetzt ausgefahren werden.</string>
+    <string name="stop_operate_camera_frequently">Die Frontkamera wird zu häufig hintereinander ausgefahren.</string>
+    <string name="takeback_camera_front_failed">Frontkamera konnte nicht eingefahren werden. Bitte erneut versuchen.</string>
+    <string name="popup_camera_front_failed">Frontkamera konnte nicht ausgefahren werden. Bitte erneut versuchen.</string>
+    <!-- Popup camera led color -->
+    <string name="popup_led_color_title">LED-Farbe</string>
+    <string name="popup_led_color_blue">Blau</string>
+    <string name="popup_led_color_cyan">Türkis</string>
+    <string name="popup_led_color_green">Grün</string>
+    <string name="popup_led_color_purple">Violett</string>
+    <string name="popup_led_color_red">Rot</string>
+    <string name="popup_led_color_yellow">Gelb</string>
+    <string name="popup_led_color_white">Weiß</string>
+
+    <!-- HBM settings -->
+    <string name="hbm_mode_title">High-Brightness-Modus</string>
+    <string name="hbm_mode_summary">Im High-Brightness-Modus kann die Bildschirmhelligkeit über den Standard-Maximalwert hinaus erhöht und so die Sichtbarkeit bei direkter Sonneneinstrahlung verbessert werden.</string>
+    <string name="hbm_enable_summary_not_supported">HBM wird vom derzeit verwendeten Kernel nicht unterstützt</string>
+    
+    <!-- High Touch Polling Rate Support strings -->
+    <string name="htsr_enable_title">Erhöhte Berührungsempfindlichkeit</string>
+    <string name="htsr_enable_summary">Erhöht die Touch-Abfragerate und senkt so die Eingabelatenz</string>
+
+    <!-- Refresh Rate Settings -->
+    <string name="refresh_rate_tile_title">Bildwiederholrate</string>
+
+    <!-- DC dimming settings -->
+    <string name="dc_dimming_enable_title">Anti-Flimmer-Modus</string>
+    <string name="dc_dimming_enable_summary">DC-Dimming ist augenfreundlicher bei schwachem Umgebungslicht (Wirkt sich aber negativ auf Bildqualität aus)</string>
+    <string name="dc_dimming_enable_summary_not_supported">DC-Dimming wird vom derzeit verwendeten Kernel nicht unterstützt</string>
+
+    <!-- Dirac settings -->
+    <string name="dirac_enable">„Dirac“ aktivieren</string>
+    <string name="dirac_title">„Dirac“-Klangverbesserung</string>
+    <string name="dirac_summary">Klangoptimierung mit Hi-Fi-„Dirac“</string>
+    <string name="dirac_headset_title">Kopfhörertyp</string>
+    <string name="dirac_hifi_enable_title">Hi-Fi aktivieren</string>
+    <string name="dirac_preset_title">Klangvoreinstellung</string>
+
+    <string name="dirac_hifi_title">Hi-Fi</string>
+    <string name="dirac_hifi_summary">Abschwächen von Störgeräuschen und Verzerrung zur Klangverbesserung</string>
+
+    <!-- Dirac settings: Headset types -->
+    <string name="dirac_headset_earbuds">Mi Earbuds</string>
+    <string name="dirac_headset_in_ear_2013">Mi In-Ear (2013)</string>
+    <string name="dirac_headset_piston_1">Mi Piston-1</string>
+    <string name="dirac_headset_general_inear">General In-Ear</string>
+    <string name="dirac_headset_piston_basic">Basic Edition</string>
+    <string name="dirac_headset_piston_2">Mi Piston-2</string>
+    <string name="dirac_headset_piston_standard">Standard Edition</string>
+    <string name="dirac_headset_piston_youth">Youth Edition</string>
+    <string name="dirac_headset_piston_color">Color Edition</string>
+    <string name="dirac_headset_in_ear">Mi In-Ear</string>
+    <string name="dirac_headset_capsule">Mi Capsule</string>
+    <string name="dirac_headset_in_ear_pro">Mi In-Ear Pro</string>
+    <string name="dirac_headset_comfort">Mi Comfort</string>
+    <string name="dirac_headset_reduction_noise">Mi Noise Cancelling Type-C</string>
+    <string name="dirac_headset_cancelling">Mi Noise Cancelling 3.5mm</string>
+    <string name="dirac_headset_half_in_ear">Mi Half In-Ear</string>
+    <string name="dirac_headset_in_ear2">Mi In-Ear 2</string>
+    <string name="dirac_headset_earphone_basic">Mi Earphones Basic</string>
+    <string name="dirac_headset_earphone">Mi Earphones</string>
+    <string name="dirac_headset_ear_four">Mi Quadruple Driver Earphones</string>
+    <string name="dirac_headset_piston_typec">Mi In-Ear Headphones (Type-C)</string>
+    <string name="dirac_headset_bluetooth_collar">Mi Bluetooth Neckband</string>
+    <string name="dirac_headset_bluetooth_linefree">Mi Bluetooth Earphones</string>
+    <string name="dirac_headset_redmi_earphones">Redmi Earphones</string>
+
+    <!-- Dirac settings: Equalizer presets -->
+    <string name="dirac_preset_live">Live</string>
+    <string name="dirac_preset_balanced">Ausgeglichen</string>
+    <string name="dirac_preset_bass_reduction">Bassabsenkung</string>
+    <string name="dirac_preset_treble_reduction">Höhenabsenkung</string>
+    <string name="dirac_preset_soft_bass">Sanfter Bass</string>
+    <string name="dirac_preset_soft_treble">Sanfte Höhen</string>
+    <string name="dirac_preset_default">Standard</string>
+    <string name="dirac_preset_rock">Rock</string>
+    <string name="dirac_preset_jazz">Jazz</string>
+    <string name="dirac_preset_pop">Pop</string>
+    <string name="dirac_preset_classical">Klassik</string>
+    <string name="dirac_preset_hiphop">Hip-Hop</string>
+    <string name="dirac_preset_blues">Blues</string>
+    <string name="dirac_preset_electronic">Elektronisch</string>
+    <string name="dirac_preset_country">Country</string>
+    <string name="dirac_preset_dance">Dance</string>
+    <string name="dirac_preset_metal">Metal</string>
+    <string name="dirac_preset_bass_booster">Bass-Booster</string>
+
+    <!-- Scene Selection -->
+    <string name="music_headset_scenario_select">Szene auswählen</string>
+    <string name="music_headset_scenario_intelligent">Intelligent</string>
+    <string name="music_headset_scenario_music">Musik</string>
+    <string name="music_headset_scenario_video">Video</string>
+    <string name="music_headset_scenario_vocal">Stimme</string>
+
+</resources>
