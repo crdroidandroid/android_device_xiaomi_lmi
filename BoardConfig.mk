@@ -80,7 +80,7 @@ BOARD_MKBOOTIMG_ARGS := --header_version $(BOARD_BOOT_HEADER_VERSION)
 BOARD_KERNEL_SEPARATED_DTBO := true
 
 # Camera
-$(call soong_config_set,camera,override_format_from_reserved,true)
+$(call soong_config_set_bool,camera,override_format_from_reserved,true)
 MALLOC_SVELTE := true
 MALLOC_SVELTE_FOR_LIBC32 := true
 TARGET_INCLUDES_MIUI_CAMERA := true
