@@ -315,11 +315,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
         <fqname>@1.0::IAudioHalExt/default</fqname>
     </hal>
     <hal format="hidl">
-        <name>android.hardware.ir</name>
-        <transport>hwbinder</transport>
-        <fqname>@1.0::IConsumerIr/default</fqname>
-    </hal>
-    <hal format="hidl">
         <name>vendor.qti.qspmhal</name>
         <transport>hwbinder</transport>
         <fqname>@1.0::IQspmhal/default</fqname>
