@@ -56,7 +56,6 @@ on post-fs-data
     # Dt2w
     chown system system /sys/touchpanel/double_tap
     chmod 0666 /sys/touchpanel/double_tap
-    write /sys/touchpanel/double_tap 1
 
 on property:init.svc.vendor.nv_mac=stopped
     start vendor.btmac-sh

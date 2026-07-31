@@ -393,6 +393,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
 
+$(call soong_config_set,qtipower,tap_to_wake_node,/sys/touchpanel/double_tap)
+
 # Protobuf
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-3.9.1-vendorcompat \
